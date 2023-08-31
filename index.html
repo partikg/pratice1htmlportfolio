@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --theme: coral;
+        }
+
+        .header {
+            background-image: url(assests/images/bg.svg);
+            background-repeat: no-repeat;
+            height: calc();
+            background-position: bottom left;
+            background-size: cover;
+        }
+
+        .user {
+            position: absolute;
+            top: 142px;
+            right: 15px;
+            height: 90vh;
+        }
+
+        .content {
+            color: white;
+            position: absolute;
+            top: 15%;
+            left: 15%;
+        }
+
+        p {
+            width: 50%;
+            line-height: 1.7rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .anchor {
+            border: 2px solid var(--theme);
+            text-decoration: none;
+            color: var(--theme);
+            padding: 5px;
+            font-size: large;
+            padding: 8px 20px;
+        }
+
+        .hero a {
+            color: var(--theme);
+            border: 2px solid var(--theme);
+            padding: 0.5rem 1.5rem;
+            text-decoration: none;
+        }
+
+        .navbar {
+            background-color: var(--theme);
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .skills {
+            /*
+            height: 200px;
+            background-color: var(--theme);
+              
+            */
+            width: 80%;
+            margin: 2rem auto 0px;
+            display: flex;
+            gap: 2rem;
+
+        }
+
+        .progress {
+            background: gray;
+            height: 2rem;
+            margin: 2rem 0;
+        }
+
+
+        .progress-bar {
+            background-color: var(--theme);
+            height: 2rem;
+            /* width: 75%; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .frontend {
+            width: 50%;
+        }
+
+        .backend {
+            width: 50%;
+        }
+
+        .html {
+            width: 50%;
+        }
+
+        .css {
+            width: 60%;
+        }
+
+        .projects {
+            width: 80%;
+            margin: 2rem auto;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .card {
+            border: 2px solid var(--theme);
+            width: 25%;
+        }
+
+        .card img {
+            max-width: 100%;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="content">
+            <h1>hi my name is john</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci velit libero ut debitis tempora
+                explicabo nesciunt quidem quis! Necessitatibus libero deserunt possimus tenetur reprehenderit
+                accusantium
+                itaque voluptas quis eaque!</p>
+            <a class="anchor" href="">hire me</a>
+
+        </div>
+        <img class="dots" src="assests/images/bg-dots.svg" alt="">
+        <img class="user" src="assests/images/user.png" alt="">
+    </div>
+    <div class="navbar">
+        <a href="">Home</a>
+        <a href="">Education</a>
+        <a href="">Projects</a>
+        <a href="">Experience</a>
+        <a href="">Contact</a>
+    </div>
+
+
+    <div class="skills">
+        <div class="frontend">
+            <div class="progress">
+                <div class="progress-bar html">
+                    HTML
+                </div>
+            </div>
+
+
+            <div class="progress">
+                <div class="progress-bar css">
+                    CSS</div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="backend">
+            <div class="progress">
+                <div class="progress-bar html">
+                    HTML
+                </div>
+
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar css">
+                    CSS
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="projects">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+                alt="">
+            <div class="card-body">
+                <h1>Todo</h1>
+                <p>Lorem, ipsum.</p>
+                <a href="">Visit</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+                alt="">
+            <div class="card-body">
+                <h1>Todo</h1>
+                <p>Lorem, ipsum.</p>
+                <a href="">Visit</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+<!-- github -account
+
+git som .com
+download for windows 54bit
+and install -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --theme: coral;
+        }
+
+        .classname {
+            background-image: url(assests/images/bg.svg);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom left;
+        }
+
+        .content {
+            color: white;
+            position: absolute;
+            top: 15%;
+            left: 15%;
+        }
+
+        .anchor {
+            color: var(--theme);
+            border: 2px solid var(--theme);
+            font-size: large;
+            padding: 8px 20px;
+            text-decoration: none;
+        }
+
+        .img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100vh;
+        }
+
+        p {
+            width: 50%;
+            line-height: 1.7rem;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="classname">
+        <div class="content">
+
+            <h1>hi my name is john</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa minus commodi beatae earum reprehenderit
+                quia
+                dicta tempore quo illo vitae perspiciatis cum ullam natus laboriosam, laborum eaque provident. At
+                necessitatibus deleniti laborum quis sapiente veniam, explicabo cum rerum
+                rem, odit iste inventore.</p>
+            <a class="anchor" href="">hire me</a>
+        </div>
+        <img class="img" src="assests/images/bg-dots.svg" alt="">
+        <img class="img" src="assests/images/user.png" alt="">
+    </div>
+
+</body>
+
+</html> -->
